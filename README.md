@@ -1,4 +1,5 @@
 # Parking-Lot
+[![CircleCI](https://circleci.com/gh/GabrielEValenzuela/Parking-Lot/tree/master.svg?style=svg)](https://circleci.com/gh/GabrielEValenzuela/Parking-Lot/tree/master)
 ### Enunciado:
 En este práctico se debe resolver el control de acceso a una playa de estacionamiento con 3 (tres) entradas (calles) diferentes. En esta playa hay 2 pisos, y en cada  piso pueden  estacionar 30 autos. La playa cuenta con 2 salidas diferentes y una única estación de pago (caja). En los accesos a la playa y en los egresos existen barreras que deben modelarse.
 La playa cuenta con 3(tres) lugares donde los vehículos se detienen cuando quieren entrar (barrera), una vez que ingresaron se les indica un piso y estacionan (Puede ser el 1er piso o el 2do).

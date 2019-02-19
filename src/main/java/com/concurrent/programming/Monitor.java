@@ -115,8 +115,9 @@ public class Monitor implements Observable {
                 autoWakeUp = this.queues.toSleep(fire, sleeptime);
                 if (autoWakeUp) {
                     this.semaphore.acquire();
-                    this.state.loopIn = true;
+             
                 }
+                this.state.loopIn = true;
             }
             String msg = "Thread [" + Thread.currentThread().getId() + "].Shot: " + fire + ".Mark: " + Arrays.toString(petrinet.getSigma_MarkVector());
             notifyObserver(msg, 2);

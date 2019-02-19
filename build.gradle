@@ -1,0 +1,29 @@
+apply plugin: 'application'
+
+sourceCompatibility = '1.8'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+// NetBeans will automatically add "run" and "debug" tasks relying on the
+// "mainClass" property. You may however define the property prior executing
+// tasks by passing a "-PmainClass=<QUALIFIED_CLASS_NAME>" argument.
+//
+// Note however, that you may define your own "run" and "debug" task if you
+// prefer. In this case NetBeans will not add these tasks but you may rely on
+// your own implementation.
+
+mainClassName = 'com.concurrent.programming.Main'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.hibernate:hibernate-core:3.6.7.Final'
+    implementation 'com.google.code.gson:gson-parent:2.8.5'
+    implementation 'de.gerdi-project:GSON:4.3.0'
+    implementation 'junit:junit:4.13-beta-2'
+    implementation 'org.apache.commons:commons-lang3:3.8.1'
+    implementation 'org.python:jython-standalone:2.7.1'
+    implementation 'org.jetbrains:annotations:17.0.0'
+}

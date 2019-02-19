@@ -1,0 +1,78 @@
+{
+  "title": "TestIntegration_Reader_and_Writer",
+  "absstract": "7 process",
+  "description": "log_tp2018.txt",
+  "temporalQueue": [0,0,0,0,1,1],
+  "Z_MatrixTemporal":[
+    [0, 0,20, 0, 0,10, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0]
+  ],
+  "I_IncidenceMatrix": [
+    [-1, 0, 1,-1, 0, 1],
+    [ 1,-1, 0, 0, 0, 0],
+    [ 0, 1,-1, 0, 0, 0],
+    [ 0, 0, 0, 1,-1, 0],
+    [ 0, 0, 0, 0, 1,-1],
+    [ 0,-1, 1, 0,-1, 1]
+  ],
+  "Sigma_MarkVector": [10,0,0,0,0,1],
+  "H_IncidenceInhibitorArcsMatrix": [
+    [0,0,0,0,0,0],
+    [0,0,0,1,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0]
+  ],
+  "R_IncidenceReaderArcsMatrix": [
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0]
+  ],
+  "sumInvariantPlaces": [10,1],
+  "invariantPlaceMatrix": [
+    [1,1,1,1,1,0],
+    [0,0,1,0,1,1]
+  ],
+  "invariantTransitionMatrix": [
+    [1,1,1,0,0,0],
+    [0,0,0,1,1,1]
+  ],
+  "matrixT": [
+    [0,0,1,0,0,0],
+    [1,0,0,0,0,0],
+    [0,1,0,0,0,0],
+    [0,0,0,1,0,0],
+    [0,0,0,0,1,0],
+    [0,0,0,0,0,1]
+  ],
+  "transitions": [
+    {
+      "id": "Nuevo Escritor",
+      "sequence": [1],
+      "sleepTime": 50,
+      "numberOfTimes": 10
+    },
+    {
+      "id": "Escribiendo",
+      "sequence": [2,3],
+      "sleepTime": 0,
+      "numberOfTimes": 0
+    },
+    {
+      "id": "Nuevo Lector",
+      "sequence": [4],
+      "sleepTime": 20,
+      "numberOfTimes": 20
+    },
+    {
+      "id": "Leyendo",
+      "sequence": [5,6],
+      "sleepTime": 0,
+      "numberOfTimes": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.concurrent.programming.PetriNetworkTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-02-07T02:26:33" hostname="DESKTOP-PLBO5CO" time="0.013">
+  <properties/>
+  <testcase name="sensitizedTransitions" classname="com.concurrent.programming.PetriNetworkTest" time="0.003"/>
+  <testcase name="makeShot" classname="com.concurrent.programming.PetriNetworkTest" time="0.001"/>
+  <testcase name="getI_IncidenceMatrix" classname="com.concurrent.programming.PetriNetworkTest" time="0.0"/>
+  <testcase name="getH_IncidenceInhibitorArcsMatrix" classname="com.concurrent.programming.PetriNetworkTest" time="0.001"/>
+  <testcase name="getSigma_MarkVector" classname="com.concurrent.programming.PetriNetworkTest" time="0.0"/>
+  <testcase name="getPlacesInvariants" classname="com.concurrent.programming.PetriNetworkTest" time="0.001"/>
+  <testcase name="getBounderMarkVector" classname="com.concurrent.programming.PetriNetworkTest" time="0.0"/>
+  <testcase name="getR_IncidenceReaderArcsMatrix" classname="com.concurrent.programming.PetriNetworkTest" time="0.001"/>
+  <testcase name="getInvariantPlaceMatrix" classname="com.concurrent.programming.PetriNetworkTest" time="0.0"/>
+  <testcase name="getDescription" classname="com.concurrent.programming.PetriNetworkTest" time="0.0"/>
+  <testcase name="getTitle" classname="com.concurrent.programming.PetriNetworkTest" time="0.003"/>
+  <testcase name="getAbsstract" classname="com.concurrent.programming.PetriNetworkTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

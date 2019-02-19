@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<Pane xmlns:fx="http://javafx.com/fxml/1" fx:id="principal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="55.0" prefWidth="274.0" xmlns="http://javafx.com/javafx/10.0.1"
+      fx:controller="com.controller.Principal">
+    <children>
+        <Button fx:id="btnInit" layoutX="181.0" layoutY="14.0" mnemonicParsing="false" onAction="#init"
+                prefHeight="25.0" prefWidth="79.0" text="Iniciar">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+        </Button>
+        <Button fx:id="btnOpen" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#fileChooser"
+                prefHeight="25.0" prefWidth="79.0" text="Abrir">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+        </Button>
+    </children>
+    <padding>
+        <Insets bottom="100.0" left="100.0" right="100.0" top="100.0"/>
+    </padding>
+</Pane>

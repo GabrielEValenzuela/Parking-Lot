@@ -1,4 +1,4 @@
-package com.concurrent.programming;
+/*package com.concurrent.programming;
 
 import com.concurrent.programming.customexceptions.FiringException;
 import org.junit.Before;
@@ -92,3 +92,4 @@ public class PetriNetworkTest {
         assertTrue(petriTest.getInvariantTransitionMatrix() == null);
     }
 }
+*/
